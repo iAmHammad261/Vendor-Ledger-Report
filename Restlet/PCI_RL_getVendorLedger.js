@@ -102,7 +102,7 @@ const main = (query) => {
 
     if (purchaseOrderIncluded) defaultAccountFilters.push("116");
 
-    let AccountClause = `AND (ACC.parent = '3154' OR TAL.account IN (${defaultAccountFilters.map((acc) => `'${acc}'`).join(",")}))`;
+    let AccountClause = `AND (ACC.parent = '3154' OR ACC.parent = '3187' OR TAL.account IN (${defaultAccountFilters.map((acc) => `'${acc}'`).join(",")}))`;
 
     whereClause += AccountClause;
 
