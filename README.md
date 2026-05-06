@@ -16,4 +16,11 @@ The report is powered by a NetSuite RESTlet that queries live data using SuiteQL
 
 ## Preview
 
+# Report
 ![Vendor Ledger Report](./Preview.png)
+
+# PDF Preview
+![PDF Preview](./PDF Preview.png)
+
+# Excel Preview
+![Excel Preview](./Excel Preview.png)
